@@ -1,0 +1,53 @@
+.app {
+  max-width: 480px;
+  margin: 15vh auto 0;
+  padding: 0 1.5rem;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.check-button {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #1a1a2e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.check-button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.check-button:hover:not(:disabled) {
+  background: #16213e;
+}
+
+.result {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.result.success {
+  background: #e6f7ed;
+  color: #14532d;
+}
+
+.result.error {
+  background: #fdecea;
+  color: #7f1d1d;
+}
+
+.meta {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  margin-top: 0.25rem;
+}
